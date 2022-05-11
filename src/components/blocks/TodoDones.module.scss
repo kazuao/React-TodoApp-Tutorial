@@ -1,0 +1,42 @@
+.complete {
+    min-height: 300px;
+    background-color: var(--color-white);
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.todoDoneHeading {
+    text-align: center;
+    background-color: var(--color-green-v3);
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 15px 15px 0 0;
+}
+
+.list {
+    padding: 20px 35px 20px;
+}
+
+.item {
+    display: block;
+    font-size: 14px;
+
+    &:not(:first-child) {
+        margin-top: 10px;
+    }
+}
+
+.done {
+    color: var(--color-white);
+    background-color: var(--color-green-v3);
+    line-height: 1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 10px;
+}

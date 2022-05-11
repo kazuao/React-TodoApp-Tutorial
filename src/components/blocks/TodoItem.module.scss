@@ -1,0 +1,18 @@
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 15px;
+    border-bottom: 1px dashed var(--color-gray-v4);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.text {
+    padding-right: 15px;
+}
+
+.text_done {
+    text-decoration: line-through;
+    color: var(--color-gray-v6);
+}

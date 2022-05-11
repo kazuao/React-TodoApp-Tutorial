@@ -1,0 +1,15 @@
+.block {
+    background-color: var(--color-white);
+    text-align: center;
+}
+
+.input {
+    width: calc(100% - 80px);
+    font-size: 15px;
+    line-height: 1;
+    padding: 8px 15px 8px;
+    border: 1px solid var(--color-gray-v4);
+    background-color: #fff;
+    outline: 0;
+    border-radius: 7px;
+}
